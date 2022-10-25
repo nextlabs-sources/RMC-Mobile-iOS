@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenBackImg" translatesAutoresizingMaskIntoConstraints="NO" id="exk-PK-OfF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRh-pn-YZe">
+                                <rect key="frame" x="0.0" y="375.66666666666669" width="5" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="kpJ-vt-li0"/>
+                                    <constraint firstAttribute="width" constant="5" id="nzu-7Q-Rgb"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-screen-enterprise-icon" translatesAutoresizingMaskIntoConstraints="NO" id="kgn-lI-9T5">
+                                <rect key="frame" x="74.666666666666686" y="159" width="265" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="JcE-xu-4VQ"/>
+                                    <constraint firstAttribute="width" constant="265" id="YWv-OR-17I"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="       Welcome to SkyDRM PRO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pej-jZ-8a9">
+                                <rect key="frame" x="82" y="366" width="250" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="30l-0C-G0J"/>
+                                    <constraint firstAttribute="height" constant="24" id="oLe-hV-n2F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="centerX" secondItem="Pej-jZ-8a9" secondAttribute="centerX" id="0sT-37-hpC"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="1Bz-mm-WwD"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="centerX" secondItem="kgn-lI-9T5" secondAttribute="centerX" id="8ET-SN-lqz"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Afv-6r-pLX"/>
+                            <constraint firstItem="kgn-lI-9T5" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="139" id="Bk2-dg-PAq"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DIG-w2-iBc"/>
+                            <constraint firstItem="Pej-jZ-8a9" firstAttribute="centerY" secondItem="bRh-pn-YZe" secondAttribute="centerY" id="Fys-Dj-gF1"/>
+                            <constraint firstAttribute="bottom" secondItem="exk-PK-OfF" secondAttribute="bottom" id="XCs-Nk-9eR"/>
+                            <constraint firstItem="Pej-jZ-8a9" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="346" id="dqK-Ii-ukD"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="leading" secondItem="bRh-pn-YZe" secondAttribute="leading" id="eh1-qq-ieU"/>
+                            <constraint firstItem="exk-PK-OfF" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="gSX-Wv-bsM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch-screen-enterprise-icon" width="795" height="163"/>
+        <image name="launchScreenBackImg" width="375" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,715 @@
+/*
+ Localizable.strings
+ nxrmc
+ 
+ Created by Kevin on 15/4/28.
+ Copyright (c) 2015年 nextlabs. All rights reserved.
+ */
+
+// UI common
+//////////////////////////////////////////////////
+"UI_COM_INVITE_MEMBERS" = "Invite members";
+"UI_COM_VIEW_MEMBERS" = "View members";
+"UI_COM_SHARE"              = "Share";
+"UI_COM_REMOVE"             = "Remove";
+"UI_COM_INVITE"             = "Invite";
+"UI_COM_RESET" = "Reset";
+"UI_COM_RMS_CONFIG" = "Server";
+"UI_COM_MY_VAULT" = "MyVault";
+"UI_COM_WORKSPACE" = "WorkSpace";
+"UI_COM_PLESASE_INPUT_NAME" = "Enter a name.";
+"UI_COM_ARE_YOU_SURE_WANT_TO_DEL" = "Are you sure you want to delete:";
+"UI_SETTING" = "Setting...";
+"UI_CONNECT" = "Connect";
+"UI_ALBUMS" = "Albums";
+"UI_SELECT" = "Select";
+"UI_COM_CLOSE" = "Close";
+"UI_COM_SAVE" = "Save";
+"UI_COM_JOINED" = "Joined ";
+"UI_COM_EDIT_ACCOUNT" = "Edit Account:";
+"UI_COM_GO_TO" = "Go to";
+"UI_COM_CREATE" = "Create";
+//
+"UI_PROTECT_FILE" = "Protect file";
+"UI_CREATE_A_PROTECTED_FILE" = "Create protected file";
+"UI_SHARE_A_PROTEDTED_FILE" = "Share  protected file";
+"UI_PROTECT_AND_SHARE_FILE" = "Create protected file and share";
+"UI_SHARE_THE_PROTECTED_FILE" = "Share a protected file";
+"UI_UPDATE" = "Update";
+"UI_SAVE_FILE_LOCATION" = "Change save location";
+// repository
+"UI_COM_INPUT_REPO_NAME" = "Enter a repository name.";
+"UI_ADDITIONAL_DOCUMENT_SOURCES" = "Additional Repositories";
+"UI_REPO_NAME_CONTAINS_INVALID_CHARACTERS" = "Repository name containning illegal special characters";
+// input exame
+"UI_COM_NAME_CONTAIN_SPECIAL_WARNING" = "Display name cannot contain special characters.";
+"UI_COM_DESCRIPTION_CONTAIN_SPECIAL_WARNING" = "Description cannot contain special characters.";
+// Camera and photos
+"UI_COM_PHOTOS" = "Upload local media files";
+"UI_COM_CAMERA" = "Take a photo or video";
+"MSG_ALLOW_ACCESS_PHOTO" = "Go to settings to allow SkyDRM to access photos.";
+"MSG_ALLOW_ACCESS_CAMERA" = "Go to settings to allow SkyDRM access camera.";
+// new folder/file
+"UI_COM_NEW_FOLDER" = "New folder";
+"UI_COM_CREATE_NEW_FOLDER" = "Create a folder";
+"UI_COM_ENTER_FOLDER_NAME" = "Enter a folder name";
+"UI_COM_FOLDER_WILL_SAVED_TO" = "Folder will be saved to";
+// sort opt
+"UI_COM_SORT_OPT_NAME_ASC" = "Name";
+"UI_COM_SORT_OPT_NAME_DSC" = "Name";
+"UI_COM_SORT_OPT_NEWEST"   = "Date";
+"UI_COM_SORT_OPT_REPO"     = "Repository";
+"UI_COM_SORT_OPT_SIZE"     = "Size";
+// doing
+"UI_COM_DOWNLOADING" = "Loading...";
+"UI_COM_CONVERTING"  = "Converting...";
+"UI_COM_CREATE_FOLDERING" = "Creating folder...";
+// profile
+"UI_COM_PROFILE_CHANGE_PASSWORD" = "Change password";
+// login user
+"UI_COM_PROFILE_LOGOUT" = "Log out";
+// File operation
+"UI_COM_OPT_VIEW_FILE" = "View file";
+"UI_COM_OPT_VIEW_FILE_INFO" = "View file info";
+"UI_COM_OPT_SHARE" = "Share";
+"UI_COM_OPT_RESHARE" = "Reshare";
+"UI_COM_OPT_REVOKE" = "Reovke";
+"UI_COM_OPT_VIEW_ACTIVITY" = "View activity";
+"UI_COM_OPT_DELETE" = "Delete";
+"UI_COM_OPT_MARK_AS_FAVORITE" = "Mark file as favorite";
+"UI_COM_OPT_UNMARK_AS_FAVORITE" = "Unmark file as favorite";
+"UI_COM_OPT_MARK_AS_OFFLINE" = "Make available offline";
+"UI_COM_OPT_UNMARK_AS_OFFLINE" = "Make unavailable offline";
+// Search placeHolder
+"UI_BEGIN_YOUR_SEARCH" = "Search";
+"UI_SEARCH_PROJECT_NAME" = "  Search for project name";
+// Appdelegate
+"MSG_SIGN_IN_FIRST" = "You must log in first";
+//Project Member page UI
+"UI_ACTIVE" = "Active";
+"UI_PENDING" = "Pending";
+"UI_VIEW_MEMBER_DETAIL" = "View member details";
+"UI_REMOVE_FROM_PROJECT" = "Remove from project";
+"UI_VIEW_INVITATION_DETAIL" = "View invitation detail";
+"UI_RESEND_INVITATION" = "Resend invitation";
+"UI_REVOKE_INVITATION" = "Revoke invitation";
+"MSG_DO_YOU_WANT_TO_REVOKE" = "Do you want to revoke: ";
+"MSG_DO_YOU_WANT_TO_REMOVE" = "Do you want to remove: ";
+// Pending Cell UI
+"UI_OWNER" = "Owner";
+"UI_INVITED" = "Invited";
+"UI_INVITE_BY" = "Invited by";
+"UI_JOIN_ON" = "Joined on";
+"UI_IGNORE" = "Ignore";
+"UI_DECLINE" = "Decline";
+"UI_REASON_FOR_DECLINE" = "Reason for declining ";
+"UI_ACCECT_INVITATION" = "Accept ";
+// Message common
+///////////////////////////////////////////////
+"MSG_COM_PARAMETER_INVALID" = "Parameter invalid";
+"MSG_COM_PROCESSING_FILE_FAILED" = "An error occurred while processing the file.";
+"MSG_COM_SUCCESS" = "Success";
+"MSG_COM_FAILED" = "Failed";
+"MSG_FAILED_GET_MYDRIVE_QUOTA" = "Failed to get MyDrive quota.";
+// rights warning
+"MSG_COM_NO_ACCESS_RIGHT" = "You are not authorized to access this file.";
+"MSG_COM_NO_SHARE_RIGHT" = "You are not authorized to share this file.";
+"MSG_COM_NO_PRINTING_RIGHT" = "You are not authorized to print this file.";
+"MSG_COM_NO_TIME_SERVER" = "An error occurred while synchronize server time. Try again later.";
+"MSG_COM_EVALUATION_FAILED" = "An error occurred while evaluating policy.";
+"MSG_COM_NO_POLICY_TO_EVALUATE" = "No policy to evaluate.";
+// nxl
+"MSG_COM_FAILED_DECRYPT_NXL_FILE" = "An error occurred while processing the file.";
+"MSG_COM_FAILED_GET_NXL_FILE_INFO" = "An error occurred while processing the file.";
+"MSG_COM_PROTECT_AND_UPLOADING" = "Protecting and uploading";
+"MSG_COM_SHARE_FILE_FAILED" = "An error occurred while sharing the file.";
+"MSG_COM_INVALID_NXL_FILE" = "The nxl file is invalid.";
+"MSG_COM_FAILED_GET_NXL_FILE_RIGHT" = "An error occurred while getting file rights.";
+// file system
+"MSG_COM_GETFILE_FAIL" = "An error occurred while getting the file list.";
+"MSG_COM_REPO_ACCOUNT_EXISTED" = "A repository has already been added with this account. Choose a different account.";
+"MSG_COM_REPO_EXISTED" = "The repository has already existed.";
+"MSG_COM_LOAD_FILE_FAIL" = "Failed to load the file.";
+"MSG_COM_CREATE_FOLDER_SUCCESS"  = "The folder %@ has been created successfully.";
+"MSG_COM_CREATE_FOLDER_FAILED" = "An error occurred while creating the folder.";
+// repository
+"MSG_COM_DEL_REPO_ERROR"  = "An error occurred while deleting the repository.";
+"MSG_COM_UPDATE_REPO_INFO_ERROR"  = "An error occurred updating the repository information on the server.";
+"MSG_COM_REPO_NOT_EXIST" = "The repository does not exist.";
+// Swipe to change file
+"MSG_COM_SWIPE_NO_MORE_FILE_TO_SHOW" = "No more files to show.";
+// project
+"MSG_COM_DECLINE_PROJECT_INVITATION_WARNING" = "Are you sure you want to decline the invitation?";
+"MSG_COM_RESEND_INVITATION_SUCCESS" = "Invitation was resent successfully.";
+"MSG_COM_REVOKE_INVITATION_SUCCESS" = "Invitation was revoked successfully.";
+"MSG_COM_REMOVE_MEMEBER_SUCCESS" = "'%@' was removed from the project.";
+// invitation message
+"MSG_COM_INVITATION_EXPIRED" = "Cannot join the project because the invitation has expired.";
+"MSG_COM_INVITE_SUCCEED"        = "Invitation was sent successfully.";
+"MSG_COM_INVITE_FAILED"         = "An error occurred while sending the invitation.";
+"MSG_COM_REVOKE_INVITATION_FAILED" = "An error occurred while revoked the invitation.";
+"MSG_COM_ALREADY_INVITED"       = "Already invited:";
+"MSG_COM_ALREADY_MEMEBERS"       = "Already members:";
+"MSG_COM_INVITATION_MISMATCH"    = "Project account mismatch";
+"MSG_COM_DECLINE_INVITATION_SUCCESS"    = "Invitation was declined successfully.";
+"MSG_COM_ACCEPT_INVITATION_SUCCESS"    = "Invitation was accepted successfully.";
+"MSG_COM_ACCEPT_INVITATION_FAILED" = "An error occurred while accepting the invitation.";
+"MSG_COM_DECLINE_INVITATION_FAILED" = "An error occurred while declining the invitation.";
+"MSG_COM_UNAUTHORIZED_TO_PROJECT"      = "You are not authorized to access this project.";
+// uploadLocalFile message
+"MSG_COM_FILE_NOT_EXISTED" = "The selected file does not exist. Select a file again.";
+// about input
+"MSG_COM_NAME_ALREADY_EXISTED" = "A file with the same name already exists in the current folder.";
+// common
+"MSG_COM_OPERATION_FAILED" = "An error occurred while performing this operation.";
+"MSG_COM_OPERATION_UNAUTHORIZED" = "This operation is unauthorized.";
+"MSG_COM_FILE_EXPIRETIME_INVALID" = "The digital rights validity period is invalid.";
+"MSG_COM_FILE_VALIDITY_EXPIRED" = "The file you are sharing is already expired.";
+"MSG_COM_PROJECT_FILE_SHARE_FORBIDDEN" = "This file is protected with company-defined rights, and cannot be shared.";
+// empty file
+"MSG_COM_EMPTY_CONTENT" = "This file is empty.";
+"UI_NO_FAVORITE_FILES" = "There are no favorite files.";
+"UI_NO_OFFLINE_FILES" = "There are no offline files.";
+// delete file warning
+"MSG_COM_DELETE_FILE_WARNING" = "Are you sure you want to delete:";
+"MSG_COM_DELETE_FILE_FAILED"  = "Failed to delete the file.";
+// revoke file warning
+"MSG_COM_REVOKE_FILE_WARNING" = "Are you sure you want to revoke:";
+"MSG_COM_REVOKE_FILE_FAILED"  = "Failed to revoke the file.";
+
+// NXMasterTabBarViewController.h
+"UI_HOME"    = "Home";
+"UI_ALL_FILES"   = "All files";
+"UI_MY_DRIVE" = "MyDrive";
+"UI_MY_SPACE" = "MySpace";
+
+// NXContextMenu
+"UI_CHOOSE_REPO_TO_SELECT_FILE" = "Choose a connected repository to select the file.";
+"UI_ADD_FILE"           = "Add a file";
+"UI_SCAN_DOCUMENT"         = "Scan a document";
+"UI_PHOTO_LIBRARY"          = "Photo library";
+"UI_ADD_FROM_FILES"      = "Files";
+"UI_CONNECT"              = "Add repository";
+"UI_ADD_LOCAL_FILES"             = "Local files";
+"UI_GO_TO_ALL_PROJECTS"  = "Go to all projects";
+"UI_ADD_FILE_TO_PROJECT" = "Add file to project";
+"UI_IMPORT_FROM_FILES"  = "Import from files";
+"UI_ADD_A_LOCAL_PROTECTED_FILE" = "Add a local protected file";
+// Repository file operation
+"MSG_GET_FILE_LIST_ERROR" = "An error occurred while retrieving the file list.";
+"MSG_DELETE_FILE_ERROR" = "An error occurred while deleting the file.";
+"MSG_ADD_FOLDER_ERROR" = "Failed to create the folder.";
+"MSG_DOWNLOAD_FILE_ERROR" = "An error occurred while downloading the file.";
+"MSG_UPLOAD_FILE_ERROR" = "An error occurred while uploading the file.";
+"MSG_GET_USER_INFO_ERROR" = "An error occurred while retrieving the user information.";
+"MSG_GET_FILE_META_ERROR" = "An error occurred while retrieving the file details.";
+
+// Repository auth
+"MSG_AUTH_REPOSITORY_NOT_SAME_WITH_RMS" = "The repository details do not match the data in the server.";
+"MSG_AUTH_REPOSITORY_FAILED" = "An error occurred while authenticating the repository.";
+"MSG_AUTH_REPOSITORY_ALREADY_EXISTED" = "There is already a repository with the same name: %@";
+
+// No Select Repo Warning
+"UI_NO_REPO_SELECTED" = "No repositories selected. \nTap the icon in the top-right corner\nto view the list of repositories.";
+"UI_NO_FILE_IN_FOLDER"   = "This folder is empty.";
+"UI_MYVAULT_NO_FILE" = "This folder is empty.";
+"UI_NO_REPO_CONFIGURED" = "No Repository Configured\nTap '+' to add a repository from the menu";
+
+// No Project Warning
+"UI_NO_PROJECT_WWARNING" = "There are no projects.";
+// No photo warning
+"UI_NO_PHOTO_WAROING" = "There are no photos.";
+// Message box
+"UI_BOX_OK"          = "OK";
+"UI_BOX_CANCEL"      = "Cancel";
+"UI_BOX_DONE"        = "Done";
+"UI_BOX_NO_REPLACE"  = "Keep both";
+"UI_BOX_REPLACE"     = "Replace";
+"UI_BOX_RENAME"     = "Rename";
+"UI_BOX_SKIP"   = "Skip";
+// Network alert info
+"MSG_NETWORK_UNREACH" = "Internet connection is required to perform this operation.";
+"MSG_NETWORK_UNUSABLE" = "There is no Internet connection.";
+// Drvie storage exceeded
+"MSG_DRIVE_STORAGE_EXCEEDED" = "File upload failed. You have exceeded the storage limit for MyDrive.";
+// Vault storage exceeded
+"MSG_VAULT_STORAGE_EXCEEDED" = "File upload failed. You have exceeded the storage limit for MyVault.";
+// NXGuideViewController
+"UI_LOGIN" = "Log in";
+
+// Upload to RMS max
+"MSG_UPLOAD_TO_MAX" = "File exceeds the maximum allowed size for upload(150MB).\nSelect a different file.";
+
+// NXLoginViewController
+"UI_SIGNIN" = "Log in";
+
+// NXRegistNewUserViewController
+"UI_SIGNUP" = "Sign up";
+
+
+// NXFilePropertyVC
+"UI_GET_RIGHTS"       = "Show Rights";
+"UI_LOCAL"            = "local";
+
+// Message common
+"MSG_COM_GETTING_RIGHTS"     = "Checking Rights…";
+"MSG_COM_GET_WATERMARK_FAILED" = "Failed to retrieve watermark information.";
+"MSG_COM_GET_RIGHTS_FAILED"  = "Failed to retrieve the rights. Try again.";
+"MSG_COM_DOWNLOADING"        = "Downloading...";
+"MSG_COM_DELETING"           = "Deleting";
+"MSG_COM_ENCRYPT_FILE_FAILED"       = "An error occurred while processing the file.";
+"MSG_COM_PROTECT_FILE_FAILED"       = "An error occurred while protecting the file.";
+"MSG_COM_UPLOAD_FILE_FAILED"        = "An error occurred while uploading the file.";
+"MSG_COM_SUCCESS_PROTECT"           = "The file has been protected successfully.";
+"MSG_COM_FILE_HAS_BEEN_SAVED_TO_MYVAULT" = "The file has been saved to MyVault.";
+"MSG_COM_FILES_HAS_BEEN_SAVED_TO_FILES"  = "The file has been saved to Files.";
+"MSG_COM_FILE_HAS_BEEN_SAVED_TO_WORKSAPCE" = "The file has been saved to WorkSpace.";
+"MSG_COM_FILE_HAS_BEEN_SAVED_TO_PROJECT"   = "The file has been saved to Project";
+"MSG_COM_NO_PROTECT_NXL_FILE"  = "The file you have selected is already protected.";
+"MSG_COM_FILE_HAS_BEEN_SAVED_TO_REPO" = "The file has been saved to current repository";
+"MSG_COM_GET_STEWARD_FAILED" = "An error occurred while getting the file steward infomation.";
+"MSG_COM_SHARED_FILE_REVOKED_OR_DELETED" = "You are not authorized to view this document.";
+
+//NXSharedFileError
+"MSG_SHAREDFILE_GETFILELIST_FAILED" = "An error occurred while getting the file.";
+"MSG_SHAREDFILE_RESAHAREFILE_FAILED" = "An error occurred while resharing the file.";
+
+//NXFilePropertyVC - File info view
+"UI_LAST_MODIFIED_ON"  = "Last modified on";
+"UI_FILE_SIZE"         = "Size";
+
+//NXFilePropertyVC - Rights Display View
+"MSG_NO_ACCESS_RIGHT"   = "You are not authorized to perform this action.";
+"MSG_NO_SHARE_RIGHT" = "You don't have permission to share";
+//"UI_DIGITAL_RIGHTS" = "Digital rights";
+//NXFilePropertyVC - FavorOffView View
+"UI_MARK_AVAILABLE_OFFLINE" = "Make available offline";
+"UI_AVAILABLE_OFFLINE"     = "Available offline";
+"UI_MARK_AS_FAVORITE"       = "Mark as favorite";
+"UI_FAVORITED"            = "Marked as favorite";
+
+
+//NXFilePropertyVC - Share View
+"UI_SHARE_FILE" = "Share a protected file";
+
+//NXProtectVC
+"UI_COM_PROTECT"                    = "Protect";
+
+//NXProtectVC - Rights Select View
+"UI_SPECIFY_DIGITAL_OR_CLASSIFY" = "Specify permissions to the file";
+"UI_SPECIFY_DIGITAL_OR_CLASSIFY_FILES" = "Specify permissions to the files";
+"UI_SPECIFY_DIGITAL_RIGHTS" = "User-defined rights are pre-defined permissions that you can apply to your documents.";
+"UI_CONTENT"                  = "Content";
+"UI_COLLABORATION"            = "Collaboration";
+"UI_EFFECT"                   = "Effect";
+"UI_EXPIRATION"               = "Expiration";
+"UI_FILE_PERMISSION"          = "File Permissions";
+"UI_PROTECT_USSING_DIGITAL_RIGHTS" = "Protect using Digital Rights";
+"UI_PREMISSIONS_APPLIED_TO_THE_FILE" = "Permissions applied to the file";
+
+//NXLocalProtectVC
+"UI_PROTECTED_FILE_WILL_SAVED_TO"   = "File will be saved to";
+"UI_FILE_WILL_BE_SAVED_TO"            = "The file will be saved to ";
+"UI_FILE_WILL_BE_SAVED_TO1"            = "The file will be saved to\n ";
+"UI_FILES_WILL_BE_SAVED_TO1"            = "The files will be saved to\n ";
+"UI_SELECT_POSITION_TO_SAVE" = "Select the position to save";
+//NXShareVC
+"MSG_FILE_HAS_BEEN_REVOKED"       = "Rights to this file have been revoked for all users.";
+"MSG_NO_VAILD_EMAIL_ADDRESS"      = "Enter at least one valid email address.";
+"MSG_HAVE_INVALID_EMAIL_ADDRESS"  = "Enter a valid email address.";
+"MSG_SHARING"                  = "Sharing...";
+"MSG_SHARE_FILE_FAILED"          = "An error occurred while sharing the file.";
+"MSG_SUCCESS_ALREADY_SHARE" = "File has already been shared with %@ and the email will not be sent again.";
+"MSG_SUCCESS_SHARE"             = "has been shared as a link via email with";
+"UI_COM_PROTECT&Share"            = "Protect and share";
+"UI_SHARED_FILE_WILL_BE_SAVED_TO"  = "The shared file will be added to";
+
+//NXShareVC - Email Input View
+"UI_SHARE_WITH"            = "Share with:";
+"UI_ENTER_EMAIL_ADDRESS"    = "Add email address";
+
+//NXShareVC - Comment Input View
+"UI_COMMENT_MESSAGE" = "Message ";
+"UI_COMMENT_OPTIONAL" = "(Optional)";
+"UI_COMMENT_PLACEHOLDER" = "Add a message to be included in the notification email";
+"UI_COMMENT_MESSAGE_EXCEED" = "The message should not exceed %ld characters.";
+
+//NXUploadVC
+"UI_JUST_UPLOAD"       = "Do not protect, just upload the file";
+"MSG_SELECT_FOLDER"     = "Select the folder to which the file must be uploaded.";
+"MSG_UPLOADING"        = "Uploading...";
+"MSG_UPLOAD_FAILED"     = "An error occurred while uploading the file.";
+"MSG_UPLOAD_SUCCESS"    = "The file has been uploaded successfully.";
+"MSG_UPLOAD_NO_REPO"    = "No repository selected. Select a repository before adding the file.";
+"MSG_SELECT_TYPE" = "Select the file type.";
+//NXUploadVC - PreviewFileView
+"UI_FILE_NOT_SUPPORTED" = "You are attempting to view a file type that is not currently supported.";
+
+//NXProjectUploadVC
+"UI_UPLOAD" = "Upload";
+// NXPeopleVC
+"UI_HOST" = "HOST";
+"UI_RECENT_FILES" = "  Recent files";
+"UI_NO_RECENT_FILE" = "This folder is empty.";
+//NXVaultManageVC
+"UI_MANAGE"           = "Manage";
+"UI_LOG"              = "Log";
+"UI_REVOKE_ALL_RIGHTS"  = "Revoke all rights";
+"MSG_COPY_LINK_SUCCESSFULLY" = "The link is copied successfully";
+"MSG_NO_COPY_LINK" = "No link to copy.";
+"MSG_REVOKE_FILE_FAILED" = "An error occurred while revoking the file.";
+"UI_FILE_ACCESS_LINK" = "File access link";
+"UI_SHARE_ON" = "Shared on";
+"UI_PROTECT_ON" = "Protected on";
+"UI_FILE_DELETED" = "This file has been deleted.";
+"UI_FILE_REVOKED" = "Rights to this file have been revoked for all users.";
+"UI_COPY_LINK" = "Copy link";
+//NXVaultManagePeopleVC
+"MSG_REMOVE_FAILED"         = "An error occurred while removing the recipient.";
+"MSG_REMOVE_SUCCESS"        = "The recipient has been removed successfully.";
+"UI_SHARE_WITH_MORE_PEOPLE"  = "Share with more people";
+"UI_SHARE_WITH %ld people" = "Shared with %ld people"; //!!!!"%Ld" cannot been changed
+
+//NXVaultAddPeopleVC
+"MSG_UPDATE_RECIPIENTS_FAILED"  = "An error occurred while updating recipients.";
+"MSG_UPDATE_RECIPIENT_SUCCESS"  = "The file has been shared successfully.";
+"MSG_UPDATE_ADD_SUCCESS" = "Successfully shared the file and emailed the link to %@";
+"MSG_UPDATE_REMOVE_SUCCESS" = "Successfully revoked rights for %@";
+
+// NXUserInfoTableViewController
+"UI_ACCOUNT_INFO"      = "Account info";
+"UI_ACCOUNT_INFO_NAME" = "Display name";
+"UI_ACCOUNT_INFO_EMAIL" = "Email";
+"UI_ACCOUNT_INFO_TENANT_ID"   = "Tenant ID";
+
+// DetailViewController
+"UI_TITLE_DETAIL"        = "Detail";
+
+//About Page view
+"UI_VERSION" = "Version";
+"UI_RMC_SESSION_OUTOFDATE" = "Your session has expired. You must log in again.";
+
+// For time format
+"DAY"       = "day";
+"DAYS"      = "days";
+"HOUR"      = "hour";
+"HOURS"     = "hours";
+"MINUTES"   = "minutes";
+"MINUTE"    = "minute";
+
+"UI_CLEAN_CACHE"    = "Clear cache";
+"MSG_SIGN_OUT_ALERT_MESSAGE" = "Are you sure you want to log out?";
+"MSG_SIGN_OUT_WHEN_HAS_MARINTASK" = "There is marking offline task,if you login out,it will cancel task,are you sure to log out?";
+// REPOSITORY DISPLAY NAME
+"CLOUDSERVICE_DROPBOX"          = "Dropbox";
+"CLOUDSERVICE_SHAREPOINTONLINE" = "SharePoint Online";
+"CLOUDSERVICE_SHAREPOINT"       = "SharePoint";
+"CLOUDSERVICE_ONEDRIVE"         = "OneDrive";
+"CLOUDSERVICE_GOOGLEDRIVE"      = "Google Drive";
+"CLOUDSERVICE_iCloudDrive"      = "iCloud Drive";
+"CLOUDSERVICE_SKYDRMBOX"        = "MyDrive";
+"CLOUDSERVICE_BOX"              = "Box";
+
+// NXCommonUtils
+"NOT_SYNC_YET"              = "Repository info not synchronized with the server.";
+
+// NXRepositoryInfoViewController
+"UI_EDIT_NAME"                 = "Edit name";
+
+
+//Dropbox error
+"DROPBOX_SIGNIN_ERROR"     = "An error occurred while adding the Dropbox repository. Try again later.";
+//Google Drive
+"GOOGLEDRIVE_SIGNIN_ERROR" = "An error occurred while adding the Google Drive repository. Try again later.";
+// Sharepoint
+"Sharepoint_SIGNIN_ERROR" = "An error occurred while adding the SharePoint repository. Try again later.";
+"Sharepoint_SITE_URL_ERROR" = "An error occurred while adding the SharePoint repository. Unable to access the SharePoint site.";
+"Sharepoint_ALREADY_EXIST_ERROR" = "Sharepoint Already Exist.";
+//Sharepoint Online
+"SharepointOnline_SIGNIN_ERROR" = "An error occurred while adding SharePoint Online repository. The user name or password is invalid.";
+"SharepointOnline_SITE_URL_ERROR" = "An error occurred while adding SharePoint Online repository. Unable to access the SharePoint Online site.";
+"SharepointOnline_BOUND_ERROR" = "An error occurred while adding the SharePoint Online repository.";
+"Box_SIGNIN_ERROR"           = "An error occurred while adding the Box repository. Try again later.";
+//One Drive error
+"ONEDRIVE_GETUSERINFO_FAIL" = "An error occurred while adding the OneDrive repository. Try again later.";
+// connect service
+"SERVICE_CONNECT_ERROR" = "An error occurred while adding the repository.";
+// errors on authen cloud account
+"SHAREPOINT_SITE_EMPTYERROR" = "Enter the SharePoint site URL.";
+"SHAREPOINT_ONLINE_SITE_EMPTYERROR" = "Enter the SharePoint Online site URL.";
+"ERROR_EMPTYPASSWORD" = "Enter the SharePoint password.";
+
+
+// file content view (DetailViewController)
+"MSG_HINT_USER_MESSAGE"   = "You are attempting to view a file type that is not currently supported.";
+"MSG_LOAD_FILE_FAIL"      = "An error occurred while processing the file";
+"MSG_CONVERT_FILE_FAIL"   = "An error occurred while processing the file.";
+"MSG_NO_SUCH_FILE"        = "The file has been deleted from this repository.";
+"MSG_DOWNLOAD_FAIL"        = "Failed to download the file.";
+"MSG_DECRYPT_FAIL"         = "An error occurred while processing the file.";
+"MSG_OPEN_THIRD_FILE_DENY" = "This operation cannot be performed, because opening a third file while binding OneDrive is not allowed.";
+"MSG_MEMORY_WARNING"      = "The file is too large to be opened by SkyDRM.";
+"MSG_GET_FILE_TYPE_FAILED" = "An error occurred while getting the file type.";
+"MSG_FILE_TYPE_DO_NOT_SUPPORT_PRINT" = "Print operation is not supported for this file format.";
+"MSG_FILE_TYPE_DO_NOT_SUPPORT_PROTECT_AND_SHARE" = "Unsupported file type.";
+
+
+//MobileSurfaceView button title and error information
+//section 1
+"BUTTON_TITLE_1" = "SS";
+"BUTTON_TITLE_2" = "SM";
+"BUTTON_TITLE_3" = "HL";
+"BUTTON_TITLE_4" = "FR";
+"BUTTON_TITLE_5" = "";
+//section 2
+"BUTTON_TITLE_6"  = "X";
+"BUTTON_TITLE_7"  = "Y";
+"BUTTON_TITLE_8"  = "Z";
+"BUTTON_TITLE_9"  = "";
+"BUTTON_TITLE_10" = "";
+//alert view text
+"ALERTVIEW_MESSAGE_BINDFAIL" = "An error occurred while initializing the viewer.";
+"ALERTVIEW_MESSAGE_OVERWRITE" = "The destination already has a file named \"%@\". Are you sure you want to replace this file?";
+"ALERTVIEW_MESSAGE_OVERWRITE_ONLY_RENAME" = "A file with the same name already exists in the current folder,are you sure you want to rename this file?";
+"ALERTVIEW_MESSAGE_OVERWRITE_SHARE_CASE" = "The destination already has a file named \"%@\", and it is shared to \"%@\" \r. Are you sure you want to replace this file?";
+"MSG_REPLACEANDKEEPBOTH_SELECT_MESSAGE" = "The destination already has a file named \"%@\".Are you sure want to replace or keep both as a copy of this file?";
+"MSG_KEEPBOTH_SELECT_MESSAGE" = "The destination already has a file named \"%@\".Are you sure want to keep both as a copy of this file";
+// NXOneDriveAuther
+"MSG_ONE_MORE_ONEDRIVE" = "SkyDRM supports only one Microsoft OneDrive account.";
+
+// NXRepositoryHelper
+"MSG_ADD_REPOSITORY_FAILED" = "An error occurred while adding the repository.";
+
+
+// NXCommonUtils
+"MSG_ACCESS_REPO_UNAUTHORIZED"            = "Authorization is required for this repository. Re-enter your credentials for the repository and try again.";
+"MSG_NO_SUCH_FILE"                        = "Resource does not exist or internal server error.";
+"MSG_USER_UNAUTHENED"                     = "An error occurred during authentication.";
+"MSG_CONVERTFILE_CHECKSUM_NOTMATCHED" = "An error occurred while processing the file.";
+
+// NXAddRepositoryViewController
+"UI_SELECT_PROVIDER" = "Select a provider to connect to.";
+"MSG_ADD_REPO_ACCOUNT_DISPLAY_NAME_DUMPLICATE" = "The repository display name already exists.";
+"MSG_ADD_REPO_SYNC_RMS_ERROR"                = "An error occurred while saving the repository information to the server.";
+
+// NXRepositoryViewController
+"UI_NEXTLABS_REPO" = "MySpace";
+"UI_CONNECT_REPO" = "Connected Repositories";
+
+// NXRepositoryInfoViewController
+"UI_REPO_TYPE" = "Type";
+"UI_USER_NAME" = "User name";
+"UI_EMAIL" = "Email";
+"UI_ACCOUNT_TYPE" = "Account type";
+"UI_OFFLINE_SIZE" = "Offline files size";
+"UI_CACHE_SIZE" = "Cache size";
+"UI_TOTAL_SIZE" = "Total size";
+"UI_DISCONNECT" = "Disconnect";
+"UI_GET_REPO_INFO_ERROR" = "An error occurred while getting the repository information.";
+"UI_DELETE_CACEH_WARNING" = "Are you sure you want to delete cache files?";
+"UI_DELETE_REPO_WARNING" = "Do you really want to disconnect this repository?";
+
+// NXProjectTabBarController
+"MSG_PROJECT_KICKED_OUT" = "You are not authorized to access this project.";
+
+// NXLRMSConfigViewController
+"UI_RMS_URL" = "Server URL";
+"UI_TENANT_NAME" = "Tenant name";
+
+// NXVaultManageViewController
+"MSG_REMOVE_ALL_RIGHTS_WARNING" = "Revoking this file will revoke all the rights for everyone with whom this file has been shared. You can still access the file. Are you sure you want to revoke the file?";
+
+// TextField warn
+"UI_COM_TEXTFIELD_REQUEST_WARNING" = "The name should not exceed 127 characters or contain any special characters.";
+"UI_COM_NAME_LENGTH_TOOLONG_WARNING" = "The name should not exceed 50 characters.";
+"UI_COM_NAME_LENGTH_TOOLONG_WARNING_LIMIT_127" = "The name should not exceed 127 characters.";
+"UI_COM_NAME_LENGTH_TOOLONG_WARNING_LIMIT_128" = "The name should not exceed 128 characters.";
+"UI_COM_NAME_LENGTH_TOOLONG_WARNING_LIMIT_150" = "The name should not exceed 150 characters.";
+"UI_COM_NAME_LENGTH_TOOLONG_WARNING_LIMIT_40" = "The name is required and should not exceed 40 characters.";
+// NXNewProjectVC
+"UI_NEW_PROJECT" = "New project";
+"UI_PROJECT_CREATE" = "Create";
+"UI_PROJECT_CONFIGURATION" = "Project configuration";
+"UI_PROJECT_SAVE"  = "Save";
+"UI_NAME_OF_THE_PROJECT" = "Name of the project";
+"UI_DRSCRIPTION" = "Description";
+"UI_INVITE_USER_TO_PROJECT" = "Invite users to the project ";
+"UI_SKIP_INVITE_PEOPLE" = "You can skip and invite people to the project later.";
+"UI_TEXTVIEW_DESCRIPTION_WARNING" = "The description should not exceed 250 characters.";
+"UI_INVITATION_MSG" = "Invitation message ";
+"UI_INVITATION_OPTIONAL" = "(Optional)";
+// NXNewProjectVC
+"UI_DESCRIPTION_LONG_WARNING" = "The description should not exceed 250 characters.";
+"MSG_NAME_LENGTH_LONG_WARNING" = "The name should not exceed 50 characters.";
+"MSG_INPUT_DESSCRIPTION" = "Enter the project description.";
+"MSG_CREATE_PROJECT_SUCCESS" = "Created the project successfully";
+"MSG_CONFIGURATION_PROJECT_FAILED" = "An error occurred while creating the project";
+"MSG_CONFIGURATION_FAILED" = "An error occurred while configuring the project";
+"MSG_PROJECT_INVATATION" = "Project invitation";
+"MSG_PROJECT_INVATATION_ACCEPT" = "Accept";
+"MSG_PROJECT_INVATATION_DECLINE" = "Decline";
+// NXSetPwdViewController
+"UI_PASSWORD_FORMAT_INVALID" = "The password must be at least 8 characters and must contain at least one number, one character, and one special character.";
+"UI_PASSWORD_NOT_MATCH" = "Passwords do not match.";
+"UI_PASSWORD_SAME" = "Your old password and new password cannot be the same. Specify a different password.";
+
+// Files and MyDrive select menu item
+"UI_MENU_ALL_FILES" = "  All  ";
+"UI_MENU_FAVORITES" = "Favorites";
+"UI_MENU_OFFLINE"   = "Offline";
+"UI_MENU_SHAREDBYME" = "Shared by me";
+"UI_MENU_SHAREDWITHME" = "Shared with me";
+"UI_MENU_FAVORITE" = "Favorite";
+"UI_MENU_SHARE_WITH_THIS_PROJECT" = "Shared with this project";
+"UI_MENU_SHARE_FROM_THIS_PROJECT" = "Shared from this project";
+"UI_MENU_SHARE_REVOKE" = "Revoked";
+// MyVault select menu item
+"UI_MYVAULT_ALL_FILES" = "  All  ";
+"UI_MYVAULT_ACTIVE_SHARES" = "Shared";
+"UI_MYVAULT_PROTECTED" = "Protected";
+"UI_MYVAULT_DELETED" = "Deleted";
+"UI_MYVAULT_REVOKED" = "Revoked";
+
+// NXProjectTabBarController
+"UI_PROJTEC_TAB_BAR_HOME_TITLE"    = "Home";
+"UI_PROJTEC_TAB_BAR_Summary_TITLE" = "Summary";
+"UI_PROJTEC_TAB_BAR_Files_TITLE"   = "Files";
+"UI_PROJTEC_TAB_BAR_People_TITLE"  = "Members";
+
+
+// NXMySpaceHomeInfoView
+"UI_HOMEVC_WELCOME"  = "Welcome";
+"UI_HOMEVC_REPOSITORY" = "Repositories";
+"UI_ADD_REPOSITORY" = "Add repository";
+"UI_HOMEVC_PROJECT_CREATED" = "Projects created by";
+"UI_HOMEVC_PROJECT_BY_ME"  = "me";
+"UI_HOMEVC_PROJECT_INVITED" = "Projects invited by";
+"UI_HOMEVC_PROJECT_BY_OTHER" = "others";
+"UI_CREATE_NEW_PROJECT" = "+ Create new project ";
+"UI_VIEW_ALL_PROJECTS" = "View all projects";
+// NXProfileViewController
+"UI_PROFILE_PROFILE" = "Profile";
+"UI_PROFILE_SYNC_NOW" = "Sync now";
+"UI_PROFILE_CLEAN" = "Clean";
+"UI_PROFILE_SERVER_URL" = "Server URL";
+"UI_PROFILE_CACHE" = "Cache";
+"UI_PROFILE_HELP" = "Help";
+"UI_PROFILE_PREFERENCES" = "Preferences";
+"UI_PROFILE_STARTED" = "Getting started";
+"UI_PROFILE_OPEN_LICENSES" = "Open-source licenses";
+"UI_PROFILE_CONTACT" = "Contact";
+"UI_PROFILE_ABOUTSKYDRM" = "About SkyDRM";
+"UI_PROFILE_SESSION" = "Session";
+"UI_PROFILE_LAST_SYNC" = "Last sync";
+"UI_PROFILE_SECTION_SESSION" = "SESSION";
+"UI_PROFILE_SECTION_ABOUT" = "ABOUT";
+"UI_PROFILE_CHANGE_NAME" = "Change";
+"UI_COM_CANNOT_CONTAIN_SPECIAL" = "Cannot contain special characters.";
+"MSG_PROFILE_CLEAN_CACHE_SUSSESS" = "Cache is cleared successfully.";
+"MSG_PROFILE_CONFIRM_CLEAN_CACHE" = "Are you sure you want to clear the cache?";
+"UI_ABOUT_SKYDRM" = "About SkyDRM";
+"UI_ABOUT_SKYDRM_PRO" = "About SkyDRM PRO";
+
+// NXSetPwdViewController
+"UI_PROFILE_SET_PASSWORD" = "Change password";
+"UI_PROFILE_CURRENT_PASSWORD" = "Current password";
+"UI_PROFILE_INPUT_CURRENT_PASSWORD" = "Current password is required.";
+"UI_PROFILE_NEW_PASSWORD" = "New password";
+"UI_PROFILE_INPUT_NEW_PASSWORD" = "You must confirm the new password.";
+"UI_PROFILE_CONFIRM_PASSWORD" = "Confirm the new password";
+"UI_PROFILE_INOUT_CONFIRM_PASSWORD" = "Confirm the new password.";
+"MSG_PROFILE_CHANGE_PASSWORD_FAILED" = "An error occurred while changing the password.";
+"MSG_PROFILE_CHANGE_PASSWORD_SUSSESS" = "Your password has been updated successfully.";
+
+// NXAccountViewController
+"MSG_PROFILE_CHANGE_NAME_FAILED" = "An error occurred while updating the display name.";
+"MSG_CHANGE_ACCOUNT_ICON_FAILED" = "Failed to change the account icon.";
+// NXAboutSktDRMVC
+"UI_RIGHTS_YEAR" = "Copyright (C) 2022 ";
+"UI_RIGHTS_NEXTLABS_INC" = "NextLabs Inc.";
+"UI_ALL_RIGHTS_RESERVED" = "All rights reserved.";
+//NXFileActivityLogViewController
+"UI_ACTIVITY_LOG" = "Activity log";
+"MSG_ACTIVITY_FAILED" = "An error occurred while getting the file infomation.";
+"MSG_ACTIVITY_OWNER_ONLY" = "Only the file owner can view the NXL file activity logs.";
+//NXSharedByMeVC
+"MSG_SHAREDBYME_DELETE_SUCCESS" = "File \"%@\" has been deleted successfully. All the rights for everyone with whom this file has been shared are revoked.";
+
+//NXUserPreferenceViewController
+"MSG_UPDATE_USER_PREFERENCE_FAILE" = "An error occurred while updating user preference on the server.";
+
+// APP version detect
+
+"MSG_MUST_UPDATE_APP" = "Upgrade to the new version of SkyDRM to continue using the app.";
+"MSG_NEW_VERSION_DETECTED" = "A new version is available for download. Do you want to update now?";
+"UI_UPDATE_NOW" = "Update now";
+"UI_UPDATE_NEXT_TIME" = "Remind me later";
+
+// Center token
+"MSG_GET_REPO_TOKEN_FAILED" = "An error occurred while getting the repository access token";
+// Document classification
+"UI_MANDATORY" = "(Mandatory)";
+"UI_DIGITAL_RIGHTS" = "User-defined";
+"UI_DOCUMENT_CLASSIFICATION" = "Company-defined";
+"UI_USER_DEFINED_RIGHTS" = "User-defined Rights";
+"UI_USER_DEFINED_PERMISSIONS" = "User-defined permissions";
+"UI_FILE_PERMISSIONS" = "File permissions";
+"UI_COMPANY_DEFINED_RIGHTS" = "Company-defined permissions";
+"MSG_MANDATORY_NOT_EMPTY" = "Mandatory categories require at least one classification label.";
+"MSG_REQUIRE_ONLY_ONE_CLASSIFICATION_LABEL" ="Category %@ require only one classification label.";
+"MSG_CLASSIFICATION_NOT_SELECTED" = "Categories require at least one classification label.";
+"UI_CENTRAL_POLICY_DEFINED SECURITY_LEVELS" = "Central policy-defined security levels you can apply to your document";
+"UI_FIILEINFO_CENTRAL_POLICY" = "Central policy-defined security levels";
+"UI_COMPANY_DEFINED_RIGHTS_MARK" = "Company-defined rights are permissions determined by centralized policies.";
+"UI_FIILEINFO_CENTRAL_POLICY" = "Company-defined rights are permissions determined by centralized policies";
+// Change Server URL
+"UI_PERSONAL_ACCOUNT" = "Personal acconut";
+"UI_COMPANY_ACCOUNT" = "Company account";
+"UI_ENTER_URL" = "Enter a company URL";
+"UI_SITE_URL" = "Site URL";
+"UI_MANAGE_URL" = "Manage URL";
+"UI_EDIT_URL" = "Edit URL";
+"UI_ADD_A_URL" = "Add a URL";
+"UI_COMPANY_ACCOUNT_B" = "COMPANY ACCOUNT";
+"UI_COMPANY_ACCOUNTS_B" = "COMPANY ACCOUNTS";
+"UI_REMEMBER_URL"    = "Remember URL";
+"UI_CHANGE_URL" = "Change URL";
+"UI_ADD_A_COMPANY_URL" = "Add a company URL";
+"UI_MAKE_DEFAULT" = "Make default";
+"UI_CHANGE_THE_URL" = "Change the URL";
+"UI_THE_URL_IS_NOT_VALID"  = "The URL is not valid";
+"UI_LOGIN_AGAIN_SAVE_URL" = "You must log in in again after saving the new URL.";
+"MSG_SERVER_URL_EMPTY" = "Enter the server URL.";
+"UI_YOU_CAN_CHANGE_THE_URL" = "You can change the URL";
+"UI_REMOVE_THE_URL" = "Remove this URL";
+//Offline file token
+"MSG_GET_FILE_TOKEN_FAILLED" = "Failed to get file token.";
+
+// Offline VC
+"MSG_OFFLINE_FILE_EXPIRED" = "Current offline file is expired on local.";
+"MSG_OFFLINE_FILE_FORMAT_NOT_SUPPORT" = "Current file format is not supported to offline.";
+"MSG_OFFLINE_FILE_LOCAL_EXPIRED_ALERT" = "Current offline file is expired,do you want to refresh it?";
+
+// Add to a project
+"UI_ADD_TO_A_PROJECT" = "Add to project";
+"UI_ADD_FILE_TO" = "Add file to ...";
+"UI_ADD_PROTECTED_FILE" = "Add protected file";
+"UI_BUTTON_ADD_FILE" = "Add file";
+"MSG_USER_DEFINED_FILE_CAN_NOT_ADD_TO_PROJECT" = "This file is encrypted using user-defined rights, and cannot be added to a project.";
+"MSG_COM_SUCCESS_ADD" = "The file has been added successfully";
+"MSG_COM_SUCCESS_SHARED" = "The file has been shared successfully";
+"MSG_NO_PERMISSIONS_DETERMINED" = "No permissions determined by centralized policies";
+"MSG_SETTING_ACCESS_ADDRESS_BOOK" = "Please go to 'Setting'-->'%@' allow access address book";
+// reclassify file
+"UI_RECLASSIFY" = "Modify rights";
+"UI_BUTTON_MODIFY_RIGHTS" = "Modify rights";
+"MSG_COM_SUCCESS_MODIFY_RIGHTS" = "The file has been modified successfully";
+"MSG_USER_DEFINED_FILE_CAN_NOT_MODIFY_RIGHTS" = "Modify rights is only for company rights protected file.";
+// workSpace
+"UI_WORKSPACE_ITEM" = "WorkSpace";
+"UI_ADD_TO_WORKSPACE" = "Add to WorkSpace";
+// shared workspace
+"UI_PROVIDERCLASS_PERSONAL" = "PERSONAL";
+"UI_PROVIDERCLASS_APPLICATION" = "APPLICATION";
+"UI_PROVIDERCLASS_BUSINESS" = "BUSINESS";
+

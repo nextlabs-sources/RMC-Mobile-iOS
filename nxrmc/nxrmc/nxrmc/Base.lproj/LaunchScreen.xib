@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenBackImg" translatesAutoresizingMaskIntoConstraints="NO" id="aIR-xr-MoC">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-Aj-bkw">
+                    <rect key="frame" x="237.5" y="237.5" width="5" height="5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="5" id="FnJ-Ta-GON"/>
+                        <constraint firstAttribute="height" constant="5" id="QZY-b2-dpx"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenImg" translatesAutoresizingMaskIntoConstraints="NO" id="Oyy-Z8-rpl">
+                    <rect key="frame" x="96" y="91.5" width="288" height="144"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SkyDRM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmS-nx-m03">
+                    <rect key="frame" x="145.5" y="227.5" width="189" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="ncz-bK-KyL"/>
+                        <constraint firstAttribute="width" constant="189" id="x4a-GT-05D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XmS-nx-m03" firstAttribute="top" secondItem="fQt-Aj-bkw" secondAttribute="bottom" constant="-15" id="1Ed-f3-KCg"/>
+                <constraint firstItem="fQt-Aj-bkw" firstAttribute="centerY" secondItem="aIR-xr-MoC" secondAttribute="centerY" id="BRx-we-M9w"/>
+                <constraint firstItem="Oyy-Z8-rpl" firstAttribute="centerX" secondItem="fQt-Aj-bkw" secondAttribute="centerX" id="FYk-b1-f8k"/>
+                <constraint firstItem="fQt-Aj-bkw" firstAttribute="centerX" secondItem="aIR-xr-MoC" secondAttribute="centerX" id="LmS-dc-xoB"/>
+                <constraint firstItem="aIR-xr-MoC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QdF-gk-hYp"/>
+                <constraint firstAttribute="bottom" secondItem="aIR-xr-MoC" secondAttribute="bottom" id="UIQ-ir-8DZ"/>
+                <constraint firstItem="aIR-xr-MoC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XI2-Y3-3j5"/>
+                <constraint firstItem="XmS-nx-m03" firstAttribute="centerX" secondItem="fQt-Aj-bkw" secondAttribute="centerX" id="YQg-tI-T2j"/>
+                <constraint firstItem="fQt-Aj-bkw" firstAttribute="top" secondItem="Oyy-Z8-rpl" secondAttribute="bottom" constant="2" id="c1x-nv-hnz"/>
+                <constraint firstAttribute="trailing" secondItem="aIR-xr-MoC" secondAttribute="trailing" id="o9y-Pn-wKN"/>
+                <constraint firstItem="Oyy-Z8-rpl" firstAttribute="height" secondItem="aIR-xr-MoC" secondAttribute="height" multiplier="0.3" id="rG0-gQ-nYg"/>
+                <constraint firstItem="Oyy-Z8-rpl" firstAttribute="width" secondItem="aIR-xr-MoC" secondAttribute="width" multiplier="0.6" id="ugV-VN-30J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="338" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launchScreenBackImg" width="187" height="333"/>
+        <image name="launchScreenImg" width="397" height="81"/>
+    </resources>
+</document>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17G65" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="NXBoundService" representedClassName="NXBoundService" syncable="YES" codeGenerationType="class">
+        <attribute name="service_account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_account_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_account_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_alias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_isAuthed" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="service_selected" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="service_type" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="repoFiles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="NXRepoFileItem" inverseName="repository" inverseEntity="NXRepoFileItem" syncable="YES"/>
+    </entity>
+    <entity name="NXCacheFile" representedClassName="NXCacheFile" syncable="YES" codeGenerationType="class">
+        <attribute name="access_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="cache_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="cache_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cache_size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="cached_time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="favorite_flag" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="offline_flag" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="safe_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="NXFavoriteFile" representedClassName="NXFavoriteFile" syncable="YES" codeGenerationType="class">
+        <attribute name="duid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileDispalyPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileServicePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastModified" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="myVaultFile" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="repoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="myVaultPartner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NXMyVaultFileItem" inverseName="favFilePartner" inverseEntity="NXMyVaultFileItem" syncable="YES"/>
+        <relationship name="repoFilePartner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NXRepoFileItem" inverseName="favFilePar" inverseEntity="NXRepoFileItem" syncable="YES"/>
+    </entity>
+    <entity name="NXLogIndex" representedClassName="NXLogIndex" syncable="YES" codeGenerationType="class">
+        <attribute name="log_index" optional="YES" attributeType="Integer 32" defaultValueString="1" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="NXLoginUserPreference" representedClassName="NXLoginUserPreference" syncable="YES" codeGenerationType="class">
+        <attribute name="relativeDay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="relativeMonth" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="relativeWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="relativeYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="validateEndDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="validateStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="validateType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="watermark" optional="YES" attributeType="String" defaultValueString=" $(User) $(Break) $(Date) $(Time)" syncable="YES"/>
+    </entity>
+    <entity name="NXMyVaultFileItem" representedClassName="NXMyVaultFileItem" syncable="YES" codeGenerationType="class">
+        <attribute name="deleted" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="duid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileDisplayPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileKey" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="fileLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileServicePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="protectedOn" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="recipients" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="revoked" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="rights" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="shared" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sharedOn" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sharedWith" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sourceFilePathDisplay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceFilePathId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceRepoId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceRepoName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceRepoType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="favFilePartner" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="NXFavoriteFile" inverseName="myVaultPartner" inverseEntity="NXFavoriteFile" syncable="YES"/>
+    </entity>
+    <entity name="NXNXLFileLog" representedClassName="NXNXLFileLog" syncable="YES" codeGenerationType="class">
+        <attribute name="accessResult" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accessTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duid" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NXPendingMemberItem" representedClassName="NXPendingMemberItem" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invitationId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="invitationMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteeEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviterDisplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviterEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="projectId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="NXProjectItem" representedClassName="NXProjectItem" syncable="YES" codeGenerationType="class">
+        <attribute name="accountType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="configurationModified" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="createdTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="homeShowMembers" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="invitationMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOwnedByMe" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastActionTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="membershipId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerInfo" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="projectDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" indexed="YES" syncable="YES"/>
+        <attribute name="tenantId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalFiles" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalMembers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="trialEndTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="validateModel" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="watermark" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="projectMembers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="NXProjectMemberItem" inverseName="projectPartner" inverseEntity="NXProjectMemberItem" syncable="YES"/>
+    </entity>
+    <entity name="NXProjectMemberItem" representedClassName="NXProjectMemberItem" syncable="YES" codeGenerationType="class">
+        <attribute name="avatarBase64" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="avatarUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviterDisplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviterEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isProjectOwner" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="joinTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="projectId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="projectPartner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NXProjectItem" inverseName="projectMembers" inverseEntity="NXProjectItem" syncable="YES"/>
+    </entity>
+    <entity name="NXRepoFileItem" representedClassName="NXRepoFileItem" syncable="YES" codeGenerationType="class">
+        <attribute name="fileDispalyPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileKey" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileServicePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="folderType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFolder" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastModified" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ownerSiteURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="childFileItem" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="NXRepoFileItem" inverseName="parentFileItem" inverseEntity="NXRepoFileItem" syncable="YES"/>
+        <relationship name="favFilePar" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="NXFavoriteFile" inverseName="repoFilePartner" inverseEntity="NXFavoriteFile" syncable="YES"/>
+        <relationship name="parentFileItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NXRepoFileItem" inverseName="childFileItem" inverseEntity="NXRepoFileItem" syncable="YES"/>
+        <relationship name="repository" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NXBoundService" inverseName="repoFiles" inverseEntity="NXBoundService" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NXBoundService" positionX="-1667" positionY="257" width="128" height="195"/>
+        <element name="NXCacheFile" positionX="-837" positionY="-36" width="128" height="210"/>
+        <element name="NXFavoriteFile" positionX="-1217" positionY="323" width="128" height="208"/>
+        <element name="NXLogIndex" positionX="-999" positionY="-171" width="128" height="60"/>
+        <element name="NXLoginUserPreference" positionX="-1530" positionY="-9" width="128" height="165"/>
+        <element name="NXMyVaultFileItem" positionX="-1251" positionY="-72" width="128" height="375"/>
+        <element name="NXNXLFileLog" positionX="-1539" positionY="-18" width="128" height="165"/>
+        <element name="NXPendingMemberItem" positionX="-1539" positionY="-18" width="128" height="195"/>
+        <element name="NXProjectItem" positionX="-1746" positionY="-144" width="128" height="345"/>
+        <element name="NXProjectMemberItem" positionX="-1469" positionY="-100" width="128" height="208"/>
+        <element name="NXRepoFileItem" positionX="-1478" positionY="242" width="128" height="255"/>
+    </elements>
+</model>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2FFA0802-63F9-48A0-A549-DF74F83652B6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "8B386E00-34FB-4ACC-A21D-2AD08517D244"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0584F449-65A8-45AF-954B-340B33189C8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nxrmc/nxrmc/NXRepoFilesViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "-accessButtonClickForFileItem:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0584F449-65A8-45AF-954B-340B33189C8B - 10e9ee6d2b864bd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__58-[NXRepoFilesViewController accessButtonClickForFileItem:]_block_invoke.189"
+                  moduleName = "nxrmcEnterprise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tliu/Desktop/SkyDRM_2021.02/rmc-mobile-ios/nxrmc/nxrmc/nxrmc/NXRepoFilesViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "284"
+                  endingLineNumber = "284"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0584F449-65A8-45AF-954B-340B33189C8B - 83e9b66becf29846"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__58-[NXRepoFilesViewController accessButtonClickForFileItem:]_block_invoke_2.191"
+                  moduleName = "nxrmcEnterprise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tliu/Desktop/SkyDRM_2021.02/rmc-mobile-ios/nxrmc/nxrmc/nxrmc/NXRepoFilesViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7EFC37F-91C7-4389-B5AE-0AB1AA795760"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nxrmc/nxrmc/NXRepoFilesViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "-accessButtonClickForFileItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F99A8DE-97E2-4037-B548-EA6B1966FF54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nxrmc/nxrmc/NXCacheFileStorage.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "+deleteCacheFileFromCoreData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D44607C7-0684-43D9-9ADD-3FD45BDE194D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nxrmc/nxrmc/NXMyVaultFileTableViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "-pullDownRefreshWork"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D44607C7-0684-43D9-9ADD-3FD45BDE194D - f601df1729a75729"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NXMyVaultFileTableViewController pullDownRefreshWork]"
+                  moduleName = "nxrmcEnterprise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tliu/Desktop/SkyDRM_2021.02/rmc-mobile-ios/nxrmc/nxrmc/nxrmc/NXMyVaultFileTableViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "254"
+                  endingLineNumber = "254"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "D44607C7-0684-43D9-9ADD-3FD45BDE194D - 2d16fd97fc639a9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__55-[NXMyVaultFileTableViewController pullDownRefreshWork]_block_invoke"
+                  moduleName = "nxrmcEnterprise"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tliu/Desktop/SkyDRM_2021.02/rmc-mobile-ios/nxrmc/nxrmc/nxrmc/NXMyVaultFileTableViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "255"
+                  endingLineNumber = "255"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
